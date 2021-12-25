@@ -15,7 +15,9 @@ const Navbar = () => {
 
   return (
     <Container>
-      <Logo>Bærum Trefelling</Logo>
+            <Link to="hero" spy={true} smooth={true} offset={0} duration={500} >
+            <Logo src="/assets/images/logo2.jpg" alt="logo"/>
+        </Link>
 
       {width < 930 && (
                 <HamBurderContainer>   <Hamburger
@@ -53,23 +55,24 @@ export default Navbar;
 const Container = styled.div`
   z-index: 100;
   width: 100%;
-  max-width: 100%;
+  min-height: 4em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align:center;
   flex-wrap: wrap;
   background: #202617;
   top: 0;
   position: sticky;
 
 `;
-const Logo = styled.h1`
-  color: white;
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 1.7rem;
-  margin-left: 1rem;
+const Logo = styled.img`
+margin-left: 1rem;
+margin-top: .3rem;
+height: 4em;
 `;
+
+
 const Menu = styled.div`
   display: flex;
   justify-content: space-between;

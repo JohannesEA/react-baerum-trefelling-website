@@ -22,7 +22,7 @@ const Services = () => {
         <Box
           height="30em"
           title="Område"
-          text="Vi tar oppdrag hovedsaklig i Asker og Bærum. Vi er ansvarsforsikret inntil 10.000.000"
+          text="Vi tar oppdrag hovedsaklig i Asker og Bærum. Vi er ansvarsforsikret inntil 10.000.000 Kr."
           point1=""
           point2=""
           point3=""
@@ -34,10 +34,10 @@ const Services = () => {
           title="Pris"
           text="Prisen bestemmes av: "
           list="true"
-          point1="type tre, størrelse og antall"
-          point2=" tilgjengelighet (hvor står treet, ved vei, i skråning etc)"
-          point3="eventuell bortkjøring av kvist og tømmer"
-          point4="kapping av tømmer osv"
+          point1="Type tre, størrelse og antall."
+          point2="Tilgjengelighet (hvor står treet, ved vei, i skråning etc)."
+          point3="Eventuell bortkjøring av kvist og tømmer."
+          point4="Kapping av tømmer osv."
           icon={<MdAttachMoney fontSize={50} />}
         />
       </BoxContainer>

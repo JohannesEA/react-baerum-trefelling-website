@@ -1,17 +1,19 @@
 import styled from "styled-components";
+import {Link} from "react-scroll";
 
 const Footer = () => {
   return (
     <Container>
       <Top>
-            <Logo>Bærum Trefelling</Logo>
-            <Text>Rask og effektiv trefelling</Text>
+      <Link to="hero" spy={true} smooth={true} offset={0} duration={500} >
+            <Logo src="/assets/images/logo2.jpg"/>
+        </Link>            <Text>Rask og effektiv trefelling</Text>
 
  
       </Top>
 
       <Bottom>
-      <Text>Website created by mojo-websites.no</Text>
+      <Text onClick={() =>window.location.href = 'https://mojo-websites.no'}>Website created by mojo-websites.no</Text>
       </Bottom>
     </Container>
   );
@@ -21,7 +23,7 @@ export default Footer;
 
 const Container = styled.div`
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   display: flex;
   background-color: #202617;
   color: #f2f2f2;
@@ -41,10 +43,8 @@ const Top = styled.div`
 
 
 
-const Logo = styled.h1`
-  font-size: 2rem;
-  font-weight: 800;
-
+const Logo = styled.img`
+height: 8em;
 `;
 
 const Text = styled.p`

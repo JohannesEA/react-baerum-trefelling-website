@@ -29,7 +29,7 @@ const Container = styled.div`
   justify-content: center;
   border-radius: 0.5em;
   box-shadow: 0px 0px 20px 1px #f2f2f2;
-  padding: 1em;
+  padding: 2em;
   text-align: center;
   height: ${props => props.height};
 
@@ -37,6 +37,7 @@ const Container = styled.div`
     flex-direction: column;
     width: 90%;
     height: auto;
+    padding: 0;
 
   }
 

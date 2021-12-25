@@ -46,6 +46,7 @@ const Container = styled.div`
   width: 100%;
   height: auto;
   background-color: white;
+  margin-top: 2em;
   @media (max-width: 800px) {
     flex-direction: column;
     height: auto;

@@ -16,14 +16,22 @@ const About = () => {
               Vi er spesialister på presisjonsfelling av trær som må felles
               fordi treet har:
             </Text>
-            <PointBox>        <Point>Sett bedre tider</Point>
-            <Point>Blitt for stort</Point>
-            <Point> plassmangel sykdom/ skade</Point>
-            <Point>står i veien for bygninger og/ eller
-              kabler</Point></PointBox>
-              <Link to="contact" spy={true} smooth={true} offset={0} duration={500} >
+            <PointBox>
+              {" "}
+              <Point>Sett bedre tider</Point>
+              <Point>Blitt for stort</Point>
+              <Point>Plassmangel sykdom/ skade</Point>
+              <Point>Står i veien for bygninger og/ eller kabler</Point>
+            </PointBox>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               <Button text={"Kontakt Oss"} bc="color-2"></Button>
-        </Link>
+            </Link>
           </TextAndButtonContainer>
         )}
       </Left>
@@ -36,13 +44,22 @@ const About = () => {
               Vi er spesialister på presisjonsfelling av trær som må felles
               fordi treet har:
             </Text>
-            <PointBox>        <Point>Sett bedre tider</Point>
-            <Point>Blitt for stort</Point>
-            <Point> plassmangel sykdom/ skade</Point>
-            <Point>står i veien for bygninger og/ eller
-              kabler</Point></PointBox>
-    
-            <Button text={"Kontakt Oss"} bc="color-2"></Button>
+            <PointBox>
+              {" "}
+              <Point>Sett bedre tider</Point>
+              <Point>Blitt for stort</Point>
+              <Point>Plassmangel sykdom/ skade</Point>
+              <Point>Står i veien for bygninger og/ eller kabler</Point>
+            </PointBox>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <Button text={"Kontakt Oss"} bc="color-2"></Button>
+            </Link>{" "}
           </TextAndButtonContainer>
         )}
       </Right>
@@ -60,6 +77,7 @@ const Container = styled.div`
   width: 100%;
   height: 80vh;
   background-color: white;
+  margin-top: 2em;
   @media (max-width: 800px) {
     flex-direction: column;
     height: auto;
@@ -75,10 +93,10 @@ const TextAndButtonContainer = styled.div`
 `;
 
 const Title = styled.h1`
-    flex: 1;
-    color:black;
-    font-size: 2rem;
-    font-weight: 800;
+  flex: 1;
+  color: black;
+  font-size: 2rem;
+  font-weight: 800;
 `;
 
 const Left = styled.div`
@@ -102,9 +120,8 @@ const PointBox = styled.ul`
   text-align: left;
   margin-bottom: 4em;
 
-
   @media (max-width: 800px) {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
   }
 `;
 const Point = styled.li`
@@ -135,5 +152,14 @@ const Image = styled.img`
   @media (max-width: 400px) {
     min-width: 15em;
     max-height: 20em;
+  }
+
+  @media (max-width: 300px) {
+    max-width: 12em;
+    max-height: 28em;
+  }
+
+  @media (max-width: 250px) {
+    max-width: 8em;
   }
 `;

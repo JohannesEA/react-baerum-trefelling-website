@@ -7,6 +7,9 @@ const Hero = () => {
     <Container id="hero">
       <Left>
         <Title>Bærum Trefelling</Title>
+        <Text>Rask og effektiv trefelling</Text>
+        <Text>Vi kommer på gratis befaring</Text>
+
         <ButtonContainer>
 
         <Link to="services" spy={true} smooth={true} offset={0} duration={500} >
@@ -31,7 +34,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background: url("/assets/images/img1.jpg") no-repeat;
+  background: url("/assets/images/img2.jpg") no-repeat;
   background-size: cover;
   background-position: 100%;
   left: 0;
@@ -48,6 +51,15 @@ const Title = styled.h1`
   color: black;
   font-size: 2.8em;
   font-weight: 300;
+  margin: 0;
+`;
+
+const Text = styled.p`
+  color: black;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0.2em;
+
 `;
 
 const Left = styled.div`
@@ -80,7 +92,8 @@ const ButtonContainer = styled.div`
   min-width: 16em;
   bottom: 0;
   top: auto;
+  margin-top: .5em;
   
 `;
 
-const Text = styled.p``;
+
