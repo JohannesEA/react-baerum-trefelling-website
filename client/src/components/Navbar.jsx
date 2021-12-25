@@ -61,7 +61,7 @@ const Container = styled.div`
   align-items: center;
   text-align:center;
   flex-wrap: wrap;
-  background: #202617;
+  background: #3E5916;
   top: 0;
   position: sticky;
 
@@ -93,12 +93,12 @@ const MenuItem = styled.p`
   text-align: center;
   text-decoration: none;
   color: #eeeeee;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   display: inline-block;
   position: relative;
 
   &:hover {
-    color: #FFF;
+    color: #F28705;
 
   }
 `;

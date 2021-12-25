@@ -25,7 +25,7 @@ const Container = styled.div`
   width: 100%;
   height: 45vh;
   display: flex;
-  background-color: #202617;
+  background-color: #3E5916;
   color: #f2f2f2;
   flex-direction: column;
   align-items: center;
@@ -41,10 +41,8 @@ const Top = styled.div`
 `;
 
 
-
-
 const Logo = styled.img`
-height: 8em;
+height: 10em;
 `;
 
 const Text = styled.p`
@@ -56,7 +54,7 @@ const Bottom = styled.div`
   bottom: 0;
   width: 100%;
   margin: auto 0 0 0;
-  background-color: #354024;
+  background-color: #F28705;
   text-align: center;
 
 `;

@@ -50,7 +50,7 @@ const Container = styled.div`
 const Title = styled.h1`
   color: black;
   font-size: 2.8em;
-  font-weight: 300;
+  font-weight: bold;
   margin: 0;
 `;
 

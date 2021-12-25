@@ -52,6 +52,7 @@ const Title = styled.h1`
 `;
 const Icon = styled.div`
   text-align: center;
+  color: #F28705;
 `;
 const Text = styled.p`
   color: black;

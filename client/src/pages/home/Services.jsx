@@ -60,7 +60,7 @@ const Title = styled.h1`
   flex: 1;
   color: black;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: bold;
 `;
 const BoxContainer = styled.div`
   display: flex;
