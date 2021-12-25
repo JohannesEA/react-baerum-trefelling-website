@@ -6,17 +6,15 @@ import About from "./About";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
-
 const Home = () => {
   return (
     <Container>
       <Navbar />
-       <Hero />
-         <About/>
-
-      {/* <Services />
+      <Hero />
+      <About />
+      <Services />
       <Contact />
-      <Footer />  */}
+      <Footer />   
     </Container>
   );
 };
@@ -24,6 +22,6 @@ const Home = () => {
 export default Home;
 
 const Container = styled.div`
-width: 100%;
-
+  width: 100%;
+  padding: 0;
 `;
