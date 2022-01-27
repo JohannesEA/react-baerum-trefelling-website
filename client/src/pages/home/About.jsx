@@ -106,6 +106,7 @@ const Left = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 50%;
 `;
 
 const Text = styled.p`
@@ -139,27 +140,11 @@ const Right = styled.div`
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  width: 50%;
 `;
 
 const Image = styled.img`
-  max-height: 60vh;
-  max-width: 50vh;
+  max-height: 30em;
+  max-width: 20em;
   border-radius: 0.5em;
-  @media (max-width: 800px) {
-    max-height: 50vh;
-    max-width: 40vh;
-  }
-  @media (max-width: 400px) {
-    min-width: 15em;
-    max-height: 20em;
-  }
-
-  @media (max-width: 300px) {
-    max-width: 12em;
-    max-height: 28em;
-  }
-
-  @media (max-width: 250px) {
-    max-width: 8em;
-  }
 `;

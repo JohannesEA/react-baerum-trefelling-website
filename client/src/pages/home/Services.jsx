@@ -50,6 +50,7 @@ export default Services;
 const Container = styled.div`
   display: flex;
   text-align: center;
+  justify-content:center;
   flex-direction: column;
 
   @media (max-width: 800px) {
@@ -67,7 +68,6 @@ const BoxContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  width: 98%;
 
   @media (max-width: 800px) {
     flex-direction: column;
